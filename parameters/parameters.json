@@ -1,0 +1,25 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": { 
+        "location": {
+            "value": "West Europe"
+        }, 
+        "containerRegistryName": {
+            "value": "apayne-acr-test"
+        }, 
+        "appServicePlanName": {
+            "value": "apayne-acr-test"
+        }, 
+        "appServiceAPIName": {
+            "value": "apayne-acr-test"
+        },
+        "containerRegistryImageName": {
+            "value": "flask-app"
+        },  
+        "containerRegistryImageTag": {
+            "value": "latest"
+        } 
+
+    }
+}
