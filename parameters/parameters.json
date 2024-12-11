@@ -19,6 +19,9 @@
         },  
         "containerRegistryImageTag": {
             "value": "latest"
+        },
+        "keyVaultName": {
+            "value": "apayne-kv"
         } 
 
     }
